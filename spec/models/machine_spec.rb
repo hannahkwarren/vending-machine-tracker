@@ -26,6 +26,5 @@ RSpec.describe Machine, type: :model do
   it "should calculate average snack price for snacks in this machine" do 
     
     expect(@machine1.average_snack_price).to eq(2.0)
-
   end
 end
